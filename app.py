@@ -9,8 +9,8 @@ from PIL import Image, ImageOps
 # ---------------- PATHS ----------------
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "model" / "crop_disease_model.keras"
-CLASS_PATH = BASE_DIR / "model" / "class_names.json"
+MODEL_PATH = "crop_disease_model.keras"
+CLASS_NAMES_PATH = "class_names.json"
 
 # ---------------- PAGE CONFIG ----------------
 
